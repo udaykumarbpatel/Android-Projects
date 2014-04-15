@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Rotten Tomatoes</string>
+    <string name="clear_fav">Clear All Favorites</string>
+    <string name="exit">Exit</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="title_activity_movies">Movies Activity</string>
+    <string name="title_activity_movie">Movie Activity</string>
+    <string name="audience">Audience</string>
+    <string name="critics">Critics</string>
+
+</resources>

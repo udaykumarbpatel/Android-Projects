@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">InClass6_RT</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_detailed">DetailedActivity</string>
+    <string name="movieTitle"></string>
+    <string name="movieRuntime"></string>
+    <string name="movieSysnopsis"></string>
+    <string name="click">Back</string>
+    <string name="title">Title</string>
+    <string name="runtime">Duration (in min)</string>
+    <string name="synopsis">Description</string>
+
+</resources>

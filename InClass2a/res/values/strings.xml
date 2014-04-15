@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">In Class 2a</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Button1">Black</string>
+    <string name="Button2">White</string>
+    <string name="Button3">Red</string>
+    <string name="Button4">Green</string>
+    <string name="Button5">Blue</string>
+
+</resources>

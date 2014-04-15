@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/movie_thumb"
+        android:layout_width="47dp"
+        android:layout_height="70dp"
+        android:paddingLeft="6dp"
+        android:paddingTop="6dp"
+        android:contentDescription="@string/hello_world"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/no_preview" />
+
+    <TextView
+        android:id="@+id/movie_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="17dp"
+        android:layout_toRightOf="@+id/movie_thumb"
+        android:paddingTop="6dp"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/movie_thumb"
+        android:layout_alignLeft="@+id/movie_title" />
+
+    <TextView
+        android:id="@+id/mpaa_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/year"
+        android:layout_alignBottom="@+id/year"
+        android:layout_marginRight="32dp"
+        android:layout_toLeftOf="@+id/critic_rating" />
+
+    <ImageView
+        android:id="@+id/critic_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/mpaa_rating"
+        android:layout_toLeftOf="@+id/audience_rating"
+        android:contentDescription="@string/hello_world"
+        android:src="@drawable/notranked" />
+
+    <ImageView
+        android:id="@+id/audience_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/critic_rating"
+        android:contentDescription="@string/hello_world"
+        android:paddingRight="6dp"
+        android:src="@drawable/notranked" />
+
+</RelativeLayout>

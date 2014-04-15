@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">InClass10</string>
+    <string name="scan_barcode">Scan Barcode</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="result_hunt">Result Hunt</string>
+
+</resources>
